@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+header{
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    position: sticky;
+top: 0%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+
+}
+
+nav{
+    box-sizing: border-box;
+    width: 50%;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: darkgrey;
+    padding: .5em;
+    margin: 0%;
+
+}
+
+
+
+
+}
+nav li{
+    width: 30%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+nav ul{
+
+    display: flex;
+    width: 30%;
+    height: 100%;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+}
+
+nav ul li a {
+    color: white;
+    margin: 3em;
+}
+#logo{
+    width: 35%;
+    height: 100%;
+}
+
+section{
+    display: flex;
+    width: 100%;
+}
+
+
+#hero{
+   
+    flex-direction: column;
+    flex-wrap: wrap;
+  text-align: left;
+    color: rgb(199, 245, 150);
+    padding: 3em;
+    margin: 0px;
+    padding: 3em;
+    width: 95%;
+height: 100px;
+background-color: chartreuse; 
+display: flex;
+
+}
+
+#hero__img{
+  
+
+    width: 7em;
+    height: 10em;
+    
+}
+
+#bouton{
+    width: 0%;
+    height: 0%;
+    background-size: 1em;
+}
+
+#premier{
+    background-color: rgb(214, 218, 233);
+ text-align: center;
+ display: inline-block;
+ width: 100%;
+ flex-wrap: nowrap;
+ justify-content: space-between;
+ 
+}
+
+.photo {
+    display: flex;
+
+    margin: 0%;
+    padding: 0%;
+    width: 300px;
+    height: 350px;
+    overflow: hidden;
+    margin-right: 30px;
+    
+
+
+}
+.sous_titre{
+text-align: center;
+}
+.para_1{
+    text-align: start;
+}
+.photoun{
+    margin: 0%;
+    background-position: left;
+    width: 300px;
+    padding: 0%;
+    height: 350px;
+    overflow: hidden;
+    margin-left: 30em;
+}
+.sous_titre2{
+    text-align: end;
+}
+.para_2{
+    text-align: end;
+}
+
+.photodeux{
+    margin: 0%;
+    background-position: left;
+    width: 300px;
+    padding: 0%;
+    height: 350px;
+    overflow: hidden;
+    margin-left: 50em;
+   
+}
+.sous-titre3 {
+text-align: end;
+}
+.para_3{
+    text-align: end;
+
+}
+#card {
+    float: left;
+    width: 10%;
+    height: 4%;
+    margin: 0%;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.toute_les_card{
+
+    display: flex;
+    width: 100%;
+    height: 30%;
+    
+}
+
+#second{
+    background-color: rgb(235, 149, 36);
+    text-align: center;
+    justify-content: space-around;
+}
+.h_3{
+text-align: center;
+}
+
+.h__3{
+    text-align: end;
+}
+
+}
+.card2{
+    text-align: center;
+    flex-direction: column;
+}
